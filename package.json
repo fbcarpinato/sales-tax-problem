@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Sales taxes problem",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prettier": "prettier --write **.{ts,js}",
     "lint": "eslint . --ext .ts,.js"
   },
@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/fbcarpinato/sales-tax-problem#readme",
   "devDependencies": {
+    "@types/jest": "^27.0.1",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
     "eslint": "^7.32.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.1.0",
     "prettier": "^2.3.2",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.4.2"
   }
 }
