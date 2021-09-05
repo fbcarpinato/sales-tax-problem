@@ -4,7 +4,8 @@
   "description": "Sales taxes problem",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --write **.{ts,js}"
+    "prettier": "prettier --write **.{ts,js}",
+    "lint": "eslint . --ext .ts,.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,11 @@
   },
   "homepage": "https://github.com/fbcarpinato/sales-tax-problem#readme",
   "devDependencies": {
-    "prettier": "2.3.2",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.3.2",
     "typescript": "^4.4.2"
   }
 }
