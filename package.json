@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/fbcarpinato/sales-tax-problem#readme",
   "devDependencies": {
-    "prettier": "2.3.2"
+    "prettier": "2.3.2",
+    "typescript": "^4.4.2"
   }
 }
