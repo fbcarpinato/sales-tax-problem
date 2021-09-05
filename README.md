@@ -12,7 +12,7 @@ To run this code you need NodeJS, you can download it from https://nodejs.org/en
 Next you just need to follow this steps:
 
 1. Clone the repo ```git clone https://github.com/fbcarpinato/sales-tax-problem.git```
-1. Run ```npm install````
+1. Run ```npm install```
 3. Run ```npm run example1```
 
 You can also run the entire test suite with ```npm test```
