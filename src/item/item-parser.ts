@@ -1,6 +1,9 @@
 import { Item } from './item';
 
 export class ItemParser {
+  /**
+   * Parses a rawItem string and returns a concrete implementation of item.
+   */
   parse(rawItem: string): Item {
     const informations = rawItem.match(
       /(?<quantity>\d+) (?<label>.+) (?<price>[+-]?([0-9]*[.])?[0-9]+)/

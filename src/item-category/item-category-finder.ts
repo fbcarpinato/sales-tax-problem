@@ -8,6 +8,9 @@ export class ItemCategoryFinder {
     pills: 'medical',
   };
 
+  /**
+   * Determines the item category based on the label.
+   */
   find(item: Item): ItemCategory {
     const category = Object.keys(this.categoryMatches).find(
       (categoryMatcher) => !!item.getLabel().match(new RegExp(categoryMatcher))

@@ -1,6 +1,9 @@
 import { Item } from '../item/item';
 
 export class ItemTaxCalculator {
+  /**
+   * Calculates the amount of taxes for an item.
+   */
   calculate(item: Item): number {
     const basicTax = item.getCategory() === 'generic' ? 10 : 0;
 

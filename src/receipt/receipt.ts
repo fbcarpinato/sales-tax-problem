@@ -4,12 +4,18 @@ import { ShoppingBasketParser } from '../shopping-basket/shopping-basket-parser'
 export class Receipt {
   private constructor(private shoppingBasket: ShoppingBasket) {}
 
+  /**
+   * Creates a new instance of Receipt from a raw shopping basket string.
+   */
   static createFromRawShoppingBasket(rawShoppingBasket: string): Receipt {
     const shoppingBasket = new ShoppingBasketParser().parse(rawShoppingBasket);
 
     return new Receipt(shoppingBasket);
   }
 
+  /**
+   * Returns the stringified version of the receipt.
+   */
   toString(): string {
     const items = this.shoppingBasket.getItems();
 
