@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Sales taxes problem",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write **.{ts,js}"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fbcarpinato/sales-tax-problem/issues"
   },
-  "homepage": "https://github.com/fbcarpinato/sales-tax-problem#readme"
+  "homepage": "https://github.com/fbcarpinato/sales-tax-problem#readme",
+  "devDependencies": {
+    "prettier": "2.3.2"
+  }
 }
